@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+* {
+    margin: 0;
+}
+
+.parallax {
+    background-image: url("img/NETIQUETTE.jpg");
+  
+    min-height: 80vh; 
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: black;
+}
+
+body h1 {
+    display: flex;
+    color: goldenrod;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+}
+
+.back {
+    display: flex;
+    position: absolute;
+    z-index: 999999;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.back a{
+    text-decoration: none;
+    font-size: 60px;
+    color: goldenrod;
+    transition-duration: 0.3s;
+}
+
+.back a:hover {
+    translate: -25px;
+}
+
+.riga1 {
+    margin-top: 100px;
+    margin-left: 140px;
+}
+
+.riga1 img{
+    width: 45%;
+}
+
+.riga2 {
+    margin-top: 20px;
+    margin-left: 790px;
+}
+
+.riga2 img{
+    width: 82%;
+}
+
+.riga3 {
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+.riga3 img{
+    width: 45%;
+}
+
+.riga4 {
+    margin-top: 20px;
+    margin-left: 790px;
+}
+
+.riga4 img{
+    width: 82%;
+}
+
+.riga5 {
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+.riga5 img{
+    width: 45%;
+}
+
+.riga6 {
+    margin-top: 20px;
+    margin-left: 790px;
+}
+
+.riga6 img{
+    width: 82%;
+}
+
+.riga7 {
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+.riga7 img{
+    border-color: goldenrod;
+    border-style: solid;
+    width: 45%;
+}
+
+.riga8 {
+    margin-top: 20px;
+    margin-left: 790px;
+}
+
+.riga8 img{
+    width: 82%;
+}
+
+.riga9 {
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+.riga9 img{
+    width: 45%;
+}
+
+.riga10 {
+    height: 25rem;
+    margin-top: 20px;
+    margin-left: 790px;
+}
+
+.riga10 img{
+    width: 82%;
+}

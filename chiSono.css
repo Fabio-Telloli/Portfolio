@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    
+}
+
+.back {
+    display: flex;
+    position: absolute;
+    z-index: 999999;
+    margin-left: 40px;
+    margin-top: -70px;
+}
+
+.back a{
+    text-decoration: none;
+    font-size: 60px;
+    color: goldenrod;
+    transition-duration: 0.3s;
+}
+
+.back a:hover {
+    translate: -25px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 55px;
+    color: goldenrod;
+    font-family: 'Raleway', sans-serif;
+}
+
+.pres1 {
+    display: flex;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 300px;
+    line-height: 32px;
+    font-family: 'Raleway', sans-serif;
+    color: goldenrod;
+}
+
+.img1 {
+    width: 15%;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 50rem;
+}
+
+.pres2 {
+    display: flex;
+    width: 300px;
+    margin-top: 300px;
+    margin-left: 60rem;
+    line-height: 32px;
+    font-family: 'Raleway', sans-serif;
+    color: goldenrod;
+}
+
+.img2 {
+    width: 25%;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 19rem;
+}
+
+.pres3 {
+    display: flex;
+    width: 300px;
+    margin-top: 250px;
+    margin-left: 300px;
+    line-height: 32px;
+    font-family: 'Raleway', sans-serif;
+    color: goldenrod;
+}
+
+.img3 {
+    width: 15%;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 50rem;
+}
+
+.spazio {
+    height: 200px;
+}

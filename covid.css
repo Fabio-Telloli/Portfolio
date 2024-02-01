@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+* {
+    margin: 0;
+}
+
+.parallax {
+    background-image: url("img/covid.jpg");
+  
+    min-height: 80vh; 
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    height: 100vh;
+    background-color: black;
+}
+
+section h1 {
+    display: flex;
+    color: goldenrod;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 55px;
+}
+
+.back {
+    display: flex;
+    position: absolute;
+    z-index: 999999;
+    margin-left: 40px;
+    margin-top: -70px;
+}
+
+.back a{
+    text-decoration: none;
+    font-size: 60px;
+    color: goldenrod;
+    transition-duration: 0.3s;
+}
+
+.back a:hover {
+    translate: -25px;
+}
+
+.immagine {
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+}
+
+.immagine img {
+    width: 55%;
+}

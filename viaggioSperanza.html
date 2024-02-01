@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viaggioSperanza</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+        * {
+            margin: 0;
+        }
+
+        .parallax {
+            background-image: url("img/viaggio_speranza.png");
+
+            min-height: 80vh; 
+
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        section {
+            height: 100vh;
+            background-color: black;
+        }
+
+        section h1 {
+            color: goldenrod;
+            display: flex;
+            justify-content: center;
+            padding-top: 20px;
+            font-size: 55px;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .back {
+            display: flex;
+            position: absolute;
+            z-index: 999999;
+            margin-left: 40px;
+            margin-top: 0px;
+        }
+
+        .back a{
+            text-decoration: none;
+            font-size: 60px;
+            color: goldenrod;
+            transition-duration: 0.3s;
+        }
+
+        .back a:hover {
+            translate: -25px;
+        }
+
+        object {
+            padding-top: 65px;
+            width: 50%;
+            height: 100%;
+            margin-left: 50vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parallax"></div>   
+    
+    <section>
+        <div class="back">
+            <a href="index.html">
+                &#129040
+            </a>
+        </div>
+
+        <h1>Viaggio della speranza</h1>
+
+        <object data="viaggioSperanza/Fabio TELLOLI - Il _viaggio della speranza_ di Adamà.pdf" type=""></object>
+    </section>
+</body>
+
+</html>

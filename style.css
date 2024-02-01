@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    right: 80px;
+    top: 50px;
+    z-index: 9999;
+    gap: 3rem;
+}
+
+nav a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.341);
+
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.riga1 {
+    z-index: 1;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.riga1 > div {
+    width: 20%;
+}
+
+.riga1 img {
+    width: 100%;
+    height: 86%;
+}
+
+.riga2 {
+    z-index: 1;
+    padding-top: 4px;
+    padding-left: 200px;
+    padding-right: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.riga2 > div {
+    width: 20%;
+}
+
+.riga2 img {
+    width: 100%;
+    height: 90%;
+}
+
+.riga3 {
+    z-index: 1;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    gap: 15px;
+}
+
+.riga3 > div {
+    width: 20%;
+}
+
+.riga3 img {
+    width: 95%;
+    height: 85%;
+}
+
+.riga4 {
+    z-index: 1;
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 50px;
+    display: flex;
+    gap: 15px;
+}
+
+.riga4 > div {
+    width: 20%;
+}
+
+.riga4 img {
+    width: 105%;
+    height: 80%;
+}
+
+#test {
+    transition-duration: 0.3s;
+}
+
+#test2 {
+    position: absolute;
+    display: none;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Raleway', sans-serif;
+    font-size: clamp(0.5rem, 1.5vw, 3rem);
+}
+
+#test:hover + #test2{
+    display: block;
+    
+}
+
+#test:hover {
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
